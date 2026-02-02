@@ -1,0 +1,22 @@
+name = "spring"
+main = "index.js"
+compatibility_date = "2025-11-09"
+workers_dev = true
+preview_urls = true
+# logpush job is setup to capture from envs ending: log, pro, or one
+logpush = false
+# use node_compat or custom build
+# node_compat = true
+send_metrics = false
+minify = false
+
+[vars]
+UUID = "cc67f124-d1b0-4ed9-bd13-e456879a65a2"
+PROXYIP = "nima.nscl.ir"
+
+# [build]
+# command = "npm run deploy"
+
+# [[rules]]
+# type = "ESModule"
+# globs = ["**/*.js"]
